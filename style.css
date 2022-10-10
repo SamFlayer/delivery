@@ -1,0 +1,290 @@
+.container {
+    max-width: 700px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    border-style: none;
+}
+
+.input-address {
+    flex: 0.8;
+    background-image: url(C:\Users\user\Desktop\delivery\home.svg);
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+}
+
+.button-primary {
+    background: #91e669;
+    color: #000;
+    border: 1px solid #91e669;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 0%);
+    border-radius: 2px;
+    color: #595959;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.button-icon {
+    margin-right: 6px;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+    display: block;
+}
+
+.promo {
+    background-size: 550px;
+    background-position: top 0;
+}
+
+.promo {
+    background-size: 700px;
+    background-position: top 0;
+}
+
+.promo {
+    box-shadow: 0px 7px 12px rgb(158 158 163 / 45%);
+    background: #9ee27f url(https://delivery-fooods.web.app/img/promo-image.jpeg)
+     no-repeat top -150px right -450px / 1000px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 68px 70px;
+    padding-top: 68px;
+    padding-right: 70px;
+    padding-bottom: 68px;
+    padding-left: 70px;
+    margin-bottom: 56px;
+}
+
+.promo-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.promo-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.input-search {
+    background-image: url(#);
+    width: 300px;
+    margin-left: auto;
+}
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: 49%;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 5%);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    flex-basis: 31%;
+}
+
+.card-image {
+    width: 384px;
+    height: 250px;
+    object-fit: cover;
+}
+img {
+    border-style: none;
+}
+
+.card-text {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-tag {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    background: #9ee27f;
+    border-radius: 2px;
+    color: #000;
+    padding: 1px 8px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #8C8C8C;
+    margin-top: 10px;
+}
+
+.rating {
+    margin-right: 26px;
+    color: #ffc107;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.rating-star {
+    margin-right: 8px;
+}
+img {
+    border-style: none;
+}
+
+.price {
+    margin-right: 10px;
+}
+.price, .category {
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}

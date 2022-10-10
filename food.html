@@ -1,77 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery Food - доставка еды на дом</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Food - доставка еды на дом</title>
+  <link rel="stylesheet" 
+        href="style.css">    
 </head>
 
-<body class style="padding-right: 0px;">
+<body>
 
-<!--Шапка-->
+  <!--Шапка сайта-->
 
-<div class="container lock-padding" style="padding-right: 0px;">
-  <header class="header lock-padding" style="padding-right: 0px;">
-    <img src="..." alt="Delivery Food" class="logo">
-    <input type="text" class="input input-address" placeholder="Адрес доставки">
-    <div class="buttons">
-      <button class="button button-primary">
-        <img src="..." class="button-icon">
-        <span class="button-text">Войти</span>
-      </button>
-      <a href="#popup" class="header_popup popup_link">
-        <button class="button">
-          <img src="..." class="button-icon">
-          <span class="button-text">Корзина</span>
+  <div class="container lock-padding">
+    <header class="lock-padding">
+      <img src="logo.svg" alt="Logo" class="logo">
+      <input type="text" class="input imput-address" placeholder="Адрес доставки">
+      <div class="buttons">
+        <button class="button button-primary">
+          <img src="user.svg" class="button-icon">
+          <span class="button-text">Войти</span>
         </button>
-      </a>
-    </div>
-  </header>
-</div>
-
-<main class="main">
-  <div class="container">
-    <section class="promo">
-      <h1 class="promo-title">
-        Онлайн сервис
-        <br>
-        доставки еды на дом
-      </h1>
-      <p class="promo-text">
-        Блюда из любимого ресторана привезет
-        <br>
-        курьер в перчатках, маске и с антисептиком
-      </p>
-    </section>
-    
-    <section class="restaurants">
-      <div class="section-heading">
-        <h2 class="section-title">Рестораны</h2>
-        <input type="text" class="input input-search" placeholder="Поиск ресторанов и блюд">
+        <a href="#popup" class="header_popup popup-link">
+          <button class="button">
+            <img src="basket.svg" class="button-icon">
+            <span class="button-text">Корзина</span>
+          </button>
+        </a>
       </div>
-    </section>
+    </header>
   </div>
 
-  <!--Карты-->
+  <main class="main">
+    <div class="container">
+      <section class="promo">
+        <h1 class="promo-title">
+          Онлайн-сервис
+          <br>
+          по доставке еды на дом
+        </h1>
+        <p class="promo-text">
+          Блюда из любимого ресторана привезет
+          <br>
+          курьер в перчатках, маске и с антисептиком
+        </p>
+      </section>
 
-  <div class="cards">
-    <a href="#" class="card">
-      <img src="#" alt class="card-image">
-      <div class="card-heading">
-        <h3 class="card-title">Пицца плюс</h3>
-        <span class="card-tag tag">40 мин</span>
-      </div>
-      <div class="card-info">
-        <div class="rating">
-          <img src="#" alt class="rating star">4.1
+      <section class="restaurants">
+        <div class="section-heading">
+          <h2 class="section-title">Рестораны</h2>
+          <input type="text" class="input input-search" placeholder="Поиск ресторанов и блюд">
         </div>
-      </div>
-    </a>
-  </div>
-</main>
 
+        <!--Карточки-->
 
-    
+        <div class="cards">
+          <a href="#" class="card">
+            <img src="https://www.delivery-club.ru/naturmort/616c9e907e9b2_480x300.jpg?resize=fill&width=960&height=960&gravity=ce&out=webp"
+            alt class="card-image">
+            <div class="card-text">
+              <div class="card-heading">
+                <h3 class="cardf-title">KFC</h3>
+                <span class="card-tag tag">25-35 мин</span>
+              </div>
+              <div class="card-info">
+                <div class="rating">
+                  <img src="https://delivery-fooods.web.app/img/star.svg" alt class="rating star">4.1
+                </div>
+                <div class="price">
+                  От 300 ₽
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="card">
+            <img src="https://www.delivery-club.ru/naturmort/616c9e907e9b2_480x300.jpg?resize=fill&width=960&height=960&gravity=ce&out=webp"
+            alt class="card-image">
+            <div class="card-text">
+              <div class="card-heading">
+                <h3 class="cardf-title">KFC</h3>
+                <span class="card-tag tag">25-35 мин</span>
+              </div>
+              <div class="card-info">
+                <div class="rating">
+                  <img src="https://delivery-fooods.web.app/img/star.svg" alt class="rating star">4.1
+                </div>
+                <div class="price">
+                  От 300 ₽
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="card">
+            <img src="https://www.delivery-club.ru/naturmort/616c9e907e9b2_480x300.jpg?resize=fill&width=960&height=960&gravity=ce&out=webp"
+            alt class="card-image">
+            <div class="card-text">
+              <div class="card-heading">
+                <h3 class="cardf-title">KFC</h3>
+                <span class="card-tag tag">25-35 мин</span>
+              </div>
+              <div class="card-info">
+                <div class="rating">
+                  <img src="https://delivery-fooods.web.app/img/star.svg" alt class="rating star">4.1
+                </div>
+                <div class="price">
+                  От 300 ₽
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </section>
+    </div>
+  </main>
+  
 </body>
 </html>
