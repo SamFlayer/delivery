@@ -288,3 +288,35 @@ img {
     line-height: 32px;
     color: #8C8C8C;
 }
+
+.footer {
+    padding: 30px;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav {
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #595959;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    margin-left: 21px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-right: 21px;
+}
+
